@@ -1,0 +1,124 @@
+body {
+    background-color: EEE;
+}
+.Shape {
+    margin: auto;
+}
+.inside-text {
+    position: absolute;
+    bottom: 40px;
+  }
+  p {
+      text-align: center;
+  }
+.button {
+    display: none;
+}
+.Shape1 {
+    border-bottom: 120px solid pink;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    height: 0;
+    width: 0px;
+    margin-right:auto;
+    margin-left:auto;
+}
+.Shape1:hover {
+    border-bottom: 120 solid rgb(36, 147, 184);
+}
+
+
+.gap1 {
+    border-bottom: 15px solid white ;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0;
+    width: 120;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Shape2 {
+    border-bottom: 100px solid purple;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	height: 0;
+	width: 160px;
+    margin-right:auto;
+    margin-left:auto;
+}
+.Shape2:hover {
+	border-bottom: 100px solid #F9BD75;			
+}
+p.Result2{
+    position: absolute;
+    left: 49.5%;
+    top: 50px;
+}
+
+.gap2 {
+	border-bottom: 15px solid white;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	height: 0;
+	width: 240px;
+    margin-right:auto;
+    margin-left:auto;
+}
+.Shape3
+ {
+	border-bottom: 100px solid red;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	height: 0;
+	width: 280px;
+    margin-right:auto;
+    margin-left:auto;
+}
+.Shape3:hover {
+	border-bottom: 100px solid #F0EF92;		
+
+}
+.Shape4 {
+	border-bottom: 100px solid orange;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	height: 0;
+	width: 400px;	
+    margin-right:auto;
+    margin-left:auto;
+}
+.Shape4:hover {
+	border-bottom: 100px solid lightblue;		
+}
+.Shape5 {
+	border-bottom: 100px solid green;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	height: 0;
+	width: 520px;
+  margin-right:auto;
+  margin-left:auto;
+}
+.Shape5:hover {
+  border-bottom: 100px solid #9370DB
+
+}
+  
+.Shape6 {
+	border-bottom: 100px solid brown;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	height: 0;
+	width: 640px;
+  margin-right:auto;
+  margin-left:auto;
+}
+.Shape6:hover {
+	border-bottom: 100px solid #9370DB;			
+}
+.Date{
+    position: absolute;
+    left: 40%;
+    top: 680px;
+  }

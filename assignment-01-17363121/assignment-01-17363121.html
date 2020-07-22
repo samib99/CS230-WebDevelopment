@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head> <link type = "text/css" rel = "stylesheet" href="assignment-01-17363121.css" >
+
+    </head>
+    
+    <body>
+      <p id = "date"></p>
+
+      <div class = "Shape"></div>
+
+        <div class="Shape1">
+          <div style="text-align:center;">
+            <button class = "1Minus" type = "button" onclick="Decrease1()">-</button>
+            <button class = "1Plus" type = "button" onclick="Increase1()">+</button>
+            <p class "Result1"> <a id="Res1">0</a></p>
+          </div>
+        </div>
+
+        <div class = "gap1"></div>
+
+
+        <div class="Shape2">
+          <div style="text-align:center;">
+            <button class = "2Minus" type = "button" onclick="Decrease2()">-</button>
+            <button class = "2Plus" type = "button" onclick="Increase2()">+</button>
+            <p class "Result2"> <a id="Res2">0</a></p>
+        </div>
+        </div>
+
+        <div class = "gap2"></div>
+
+        <div class="Shape3">
+          <div style="text-align:center;">
+            <button class = "3Minus" type = "button" onclick="Decrease3()">-</button>
+            <button class = "3Plus" type = "button" onclick="Increase3()">+</button>
+            <p class "Result3"> <a id="Res3">0</a></p>
+        </div>
+        </div>
+
+        <div class="Shape4">
+          <div style="text-align:center;">
+            <button class = "4Minus" type = "button" onclick="Decrease4()">-</button>
+            <button class = "4Plus" type = "button" onclick="Increase4()">+</button>
+            <p class "Result4"> <a id="Res4">0</a></p>
+            </div>
+        </div>
+        
+        <div class="Shape5">
+          <div style="text-align:center;">
+            <button class = "5Minus" type = "button" onclick="Decrease5()">-</button>
+            <button class = "5Plus" type = "button" onclick="Increase5()">+</button>
+            <p class "Result5"> <a id="Res5">0</a></p>
+            </div>
+        </div>
+        
+        <div class="Shape6">
+            <div style="text-align:center;">
+            <button class = "6Minus" type = "button" onclick="Decrease6()">-</button>
+            <button class = "6Plus" type = "button" onclick="Increase6()">+</button>
+            <p class "Result6"> <a id="Res6">0</a></p>
+            </div>
+            
+            <div class="Date">
+              <label for="Date">Today's Date:</label>
+              <input type="date" id="TodaysDate" name="date">
+              <input type="Submit">
+            </div>
+        
+        </div> 
+
+
+      
+
+<script>
+  n = new Date();
+  y=n.getFullYear();
+  m=n.getMonth()+1;
+  d=n.getDate();
+  document.getElementById("date").innerHTML= d+"/"+m+"/"+y;
+
+var Res1 = 0;
+
+function Increase1() {
+  document.getElementById("Res1").innerHTML = ++Res1;
+}
+function Decrease1() {
+  Res1 -= 1;
+  if (Res1 < 0) {
+    Res1 = 0;
+  }
+  document.getElementById("Res1").innerHTML = Res1;
+
+}
+
+var Res2 = 0;
+function Increase2() {
+  document.getElementById("Res2").innerHTML = ++Res2;
+}
+function Decrease2() {
+  Res2 -= 1;
+  if (Res2 < 0) {
+    Res2 = 0;
+  }
+  document.getElementById("Res2").innerHTML = Res2;
+
+}
+
+var Res3 = 0;
+function Increase3() {
+  document.getElementById("Res3").innerHTML = ++Res3;
+}
+function Decrease3() {
+  Res3 -= 1;
+  if (Res3 < 0) {
+    Res3 = 0;
+  }
+  document.getElementById("Res3").innerHTML = Res3;
+
+}
+
+var Res4 = 0;
+function Increase4() {
+  document.getElementById("Res4").innerHTML = ++Res4;
+}
+function Decrease4() {
+  Res4 -= 1;
+  if (Res4 < 0) {
+    Res4 = 0;
+  }
+  document.getElementById("Res4").innerHTML = Res4;
+
+}
+
+var Res5 = 0;
+function Increase5() {
+  document.getElementById("Res5").innerHTML = ++Res5;
+}
+function Decrease5() {
+  Res5 -= 1;
+  if (Res5 < 0) {
+    Res5 = 0;
+  }
+  document.getElementById("Res5").innerHTML = Res5;
+
+}
+var Res6 = 0;
+function Increase6() {
+  document.getElementById("Res6").innerHTML = ++Res6;
+}
+function Decrease6() {
+  Res6 -= 1;
+  if (Res6 < 0) {
+    Res6 = 0;
+  }
+  document.getElementById("Res6").innerHTML = Res6;
+
+}
+</script>
+
+
+
+</body>
+
+</html>
