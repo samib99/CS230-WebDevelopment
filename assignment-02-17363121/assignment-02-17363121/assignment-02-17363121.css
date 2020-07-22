@@ -1,0 +1,193 @@
+body {
+    background-colour: grey;
+}
+
+#container {
+    width: 600px;
+    height: 600px;
+    outline: 5px solid black;
+}
+
+#BigCircle {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: -1;
+    float: left;
+    margin: 100px 100px;
+}
+
+#Circle1 {
+    width: 200px;
+    height: 200px;
+    background: darkgreen;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 10px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    z-index: 0;
+    float: left;
+    margin: -550px 0px;
+}
+
+#Circle1:hover {
+    /* box-shadow: 0px 0px 10 lightgreen;
+    box-shadow: inset 0px 0px 0px 10px lightgreen;
+    box-sizing: border-box; */
+    border-top: 10px solid cyan;
+    border-left: 10px solid cyan;
+    border-right: 10px solid cyan;
+    border-bottom: 10px solid cyan;
+}
+
+#Circle2 {
+    width: 200px;
+    height: 200px;
+    background: darkred;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 10px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    float: right;
+    margin: -550px 0px;
+}
+
+#Circle2:hover {
+    /* box-shadow: 0px 0px 10 lightgreen;
+    box-shadow: inset 0px 0px 0px 10px lightgreen;
+    box-sizing: border-box; */
+    border-top: 10px solid cyan;
+    border-left: 10px solid cyan;
+    border-right: 10px solid cyan;
+    border-bottom: 10px solid cyan;
+}
+
+#Circle3 {
+    width: 200px;
+    height: 200px;
+    background: goldenrod;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 10px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    z-index: 0;
+    float: left;
+    margin: -300px 0px;
+}
+
+#Circle3:hover {
+    /* box-shadow: 0px 0px 10 lightgreen;
+    box-shadow: inset 0px 0px 0px 10px lightgreen;
+    box-sizing: border-box; */
+    border-top: 10px solid cyan;
+    border-left: 10px solid cyan;
+    border-right: 10px solid cyan;
+    border-bottom: 10px solid cyan;
+}
+
+#Circle4 {
+    width: 200px;
+    height: 200px;
+    background: darkblue;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 10px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    z-index: 0;
+    float: right;
+    margin: -300px 0px;
+}
+
+#Circle4:hover {
+    /* box-shadow: 0px 0px 10 lightgreen;
+    box-shadow: inset 0px 0px 0px 10px lightgreen;
+    box-sizing: border-box; */
+    border-top: 10px solid cyan;
+    border-left: 10px solid cyan;
+    border-right: 10px solid cyan;
+    border-bottom: 10px solid cyan;
+}
+
+#Light {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 0;
+    float: right;
+    margin: -100px 190px;
+}
+
+#HighScore {
+    background-color: gray;
+    float: left;
+    text-align: center;
+    /* font-family: O; */
+    color: white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    margin: 152px 60px;
+    width: 80px;
+    height: 60px;
+    font-size: 40px;
+    border-radius: 12px;
+}
+
+#LastScore {
+    background-color: gray;
+    float: left;
+    text-align: center;
+    /* font-family: O; */
+    color: white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    margin: -217px 255px;
+    width: 80px;
+    height: 60px;
+    font-size: 40px;
+    border-radius: 12px;
+}
+
+.button {
+    font-family: 'Orbitron', sans-serif;
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 20px;
+    /* */
+    text-align: center;
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    font-size: 15px;
+    float: left;
+    margin: -219px 146px;
+    border-radius: 12px;
+}
+
+.button:hover {
+    border-bottom: 5px solid cyan;
+    border-top: 5px solid cyan;
+    border-left: 5px solid cyan;
+    border-right: 5px solid cyan;
+}
+
+.active {
+    background-color: white;
+}

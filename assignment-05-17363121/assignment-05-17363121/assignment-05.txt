@@ -1,0 +1,29 @@
+Users
+{"_id":{"$oid":"5ea5dd804b3c39db38567bae"},"FirstName":"Tom","Surname":"Cruise","Mobile":"0561234567","Email":"tomcruise@gmail.com","ShipAdd":{"AddLine1":"Insomnia","AddLine2":"Heuston Station","Town":"Dublin","County":"Dublin"},"BillAdd":{"AddLine1":"Insomnia","AddLine2":"Heuston Station","Town":"Dublin","County":"Dublin"}}
+{"_id":{"$oid":"5ea5ddf34b3c39db38567baf"},"FirstName":"Joe","Surname":"Bloggs","Mobile":"0871234567","Email":"joebloggs@blogmail.ie","ShipAdd":{"AddLine1":"Eolas Building","AddLine2":"Maynooth University","Town":"Maynooth","County":"Kildare"},"BillAdd":{"AddLine1":"Eolas Building","AddLine2":"Maynooth University","Town":"Maynooth","County":"Kildare"}}
+{"_id":{"$oid":"5ea5deaa4b3c39db38567bb0"},"FirstName":"Jack","Surname":"Murphy","Mobile":"0891919784","Email":"murphsmurf@gmail.com","ShipAdd":{"AddLine1":"CB9 Callan Building","AddLine2":"Maynooth University","Town":"Maynooth","County":"Kildare"},"BillAdd":{"AddLine1":"CB9 Callan Building","AddLine2":"Maynooth University","Town":"Maynooth","County":"Kildare"}}
+{"_id":{"$oid":"5ea5df0c4b3c39db38567bb1"},"FirstName":"Sami","Surname":"Bedrani","Mobile":"0891119998","Email":"sami.bedrani.2018@mumail.ie","ShipAdd":{"AddLine1":"10 The Weir","AddLine2":"CastleComer Rd.","Town":"Kilkenny","County":"Kilkenny"},"BillAdd":{"AddLine1":"Boyne Hall","AddLine2":"River Apt.","Town":"Maynooth","County":"Kildare"}}
+{"_id":{"$oid":"5ea5dfaa4b3c39db38567bb2"},"FirstName":"Bill","Surname":"Gates","Mobile":"012953826","Email":"bill@microsoft.com","ShipAdd":{"AddLine1":"South County Business Park","AddLine2":"Microsoft Place","Town":"D18","County":"Dublin"},"BillAdd":{"AddLine1":"South County Business Park","AddLine2":"Microsoft Place","Town":"D18","County":"Dublin"}}
+{"_id":{"$oid":"5ea657fd47e06a0bf49b9e80"},"FirstName":"Mary","Surname":"Macdonald","Mobile":"085321619","Email":"Mary@gmail.com","ShipAdd":{"AddLine1":"23 Mayo Rd.","AddLine2":"Riverside","Town":"Tipperary town","County":"Tipperary"},"BillAdd":{"AddLine1":"23 Mayo Rd.","AddLine2":"Riverside","Town":"Tipperary town","County":"Tipperary"}}
+
+
+Phones
+{"_id":{"$oid":"5ea5e0c34b3c39db38567bb3"},"Manufacturer":"Apple","Model":"iPhone X","Price":"999.99"}
+{"_id":{"$oid":"5ea5e17e4b3c39db38567bb4"},"Manufacturer":"Apple","Model":"iPhone 11","Price":"1200.00"}
+{"_id":{"$oid":"5ea5e1834b3c39db38567bb5"},"Manufacturer":"OnePlus","Model":"7t Pro","Price":"700.00"}
+{"_id":{"$oid":"5ea5e1894b3c39db38567bb6"},"Manufacturer":"Google","Model":"Pixel 3a","Price":"300.00"}
+{"_id":{"$oid":"5ea5e1924b3c39db38567bb7"},"Manufacturer":"Nokia","Model":"3310","Price":"60.00"}
+
+
+Orders
+{"_id":{"$oid":"5ea5e3294b3c39db38567bb8"},"User_Id":{"$oid":"5ea5dd804b3c39db38567bae"},"Phone_Id":{"$oid":"5ea5e0c34b3c39db38567bb3"}}
+{"_id":{"$oid":"5ea5e3984b3c39db38567bb9"},"User_Id":{"$oid":"5ea5dd804b3c39db38567bae"},"Phone_Id":{"$oid":"5ea5e1924b3c39db38567bb7"}}
+{"_id":{"$oid":"5ea5efb94b3c39db38567bba"},"User_Id":{"$oid":"5ea5ddf34b3c39db38567baf"},"Phone_Id":{"$oid":"5ea5e1894b3c39db38567bb6"}}
+{"_id":{"$oid":"5ea5f0a34b3c39db38567bbb"},"User_Id":{"$oid":"5ea5deaa4b3c39db38567bb0"},"Phone_Id":{"$oid":"5ea5e1894b3c39db38567bb6"}}
+{"_id":{"$oid":"5ea5f0be4b3c39db38567bbc"},"User_Id":{"$oid":"5ea5df0c4b3c39db38567bb1"},"Phone_Id":{"$oid":"5ea5e1894b3c39db38567bb6"}}
+{"_id":{"$oid":"5ea5f0c54b3c39db38567bbd"},"User_Id":{"$oid":"5ea5df0c4b3c39db38567bb1"},"Phone_Id":{"$oid":"5ea5e1834b3c39db38567bb5"}}
+{"_id":{"$oid":"5ea5f0cd4b3c39db38567bbe"},"User_Id":{"$oid":"5ea5df0c4b3c39db38567bb1"},"Phone_Id":{"$oid":"5ea5e1924b3c39db38567bb7"}}
+{"_id":{"$oid":"5ea5f0d54b3c39db38567bbf"},"User_Id":{"$oid":"5ea5dfaa4b3c39db38567bb2"},"Phone_Id":{"$oid":"5ea5e1894b3c39db38567bb6"}}
+
+
+
